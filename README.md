@@ -2,12 +2,14 @@
 
 echo "www.skynodejs.net"
 echo "github/0xMrmoon"
-echo "Nodeist copied the code from kjnodes so I copied it from it (CTRL C + CTRL V POWER) " 
+echo "Ty for the original code kjnodes & nodeist "
+echo "kjnodes.com"
+echo "nodeist.net"
 
 
 sleep 2
 
-# Variables Skynodes :D 
+# Variables Skynodes 
 TERP_WALLET=wallet
 TERP=terpd
 TERP_ID=athena-1
@@ -56,17 +58,17 @@ echo '================================================='
 sleep 2
 
 
-# Upgrade by Nodeist Or Kjnodes maybe skynodes
+# Upgrade skynodes
 echo -e "\e[1m\e[32m1.  \e[0m" && sleep 1
 sudo apt update && sudo apt upgrade -y
 
 
-# Packages https://www.youtube.com/watch?v=SzXTcUGguiU
-echo -e "\e[1m\e[32m2. nodeist's favorite song... \e[0m" && sleep 1
+# Packages 
+echo -e "\e[1m\e[32m2. ... \e[0m" && sleep 1
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu gcc git jq chrony liblz4-tool -y
 
 # GO  by Skynodes
-echo -e "\e[1m\e[32m1. GO www.nodesit.net & kj89 \e[0m" && sleep 1
+echo -e "\e[1m\e[32m1. GO  \e[0m" && sleep 1
 ver="1.18.2"
 cd $HOME
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
